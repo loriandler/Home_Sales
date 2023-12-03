@@ -58,13 +58,13 @@ For this challenge, I used SparkSQL to determine key metrics about home sales da
 |  54|    798684.82|<br>
 |  55|    771153.32|<br>
 
-This query ran in --- 0.00011086463928222656 seconds ---
+This query ran in --- 1.1464893817901611 seconds ---
 
 5. The temporary table was cached.
-6. Running the query again resulted in it running in --- 2.091764450073242 seconds ---
-7. The table was partitioned and ran through parque then ran again in only --- 0.892737627029419 seconds ---
+6. Running the query again resulted in it running in --- 2.865172863006592 seconds ---
+7. The table was partitioned and ran through parque then ran again in only --- 1.085845708847046 seconds ---
    The partitioned table ran much faster than when the table was just cached.
 9. The table was uncached.
 
 ## Credits
-Thank you to Hunter Hollis, instructor, and TA's Randy and Sam for this week's instruction.
+Thank you to Hunter Hollis, instructor, and TA's Randy and Sam for this week's instruction. Also, thank you to tutor, Limei Hou, who reviewed my code and helped me re-format to measure the correct run times.
