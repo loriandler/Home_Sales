@@ -63,7 +63,8 @@ This query ran in --- 0.00011086463928222656 seconds ---
 5. The temporary table was cached.
 6. Running the query again resulted in it running in --- 2.091764450073242 seconds ---
 7. The table was partitioned and ran through parque then ran again in only --- 0.892737627029419 seconds ---
-8. The table was uncached.
+   The partitioned table ran much faster than when the table was just cached.
+9. The table was uncached.
 
 ## Credits
 Thank you to Hunter Hollis, instructor, and TA's Randy and Sam for this week's instruction.
